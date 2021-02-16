@@ -12,7 +12,7 @@ Example command for starting a full node:
 
 Example command for starting a light _simple payment verification_ node:
 
-    docker run -d --restart unless-stopped -v "bitcoin":/home/bcoin/ --name bcoin-spv aphex3k/bcoin:latest --spv
+    docker run -d --restart unless-stopped -v "bitcoin-spv":/home/bcoin/ --name bcoin-spv aphex3k/bcoin:latest --spv
 
 ## Configuration
 
